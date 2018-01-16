@@ -5,8 +5,8 @@ angular.module('myApp')
 
 function MyController(){
     var vm = this;
-    vm.name = "Mohit";
-
+    vm.name = "Mohit";  
+    console.log(vm.name);
 }
 
 function MainController(){
